@@ -1,2 +1,180 @@
-.desktop-main{background-position:50%;background-repeat:no-repeat;background-size:cover;height:100vh;overflow:hidden;position:absolute;width:100%}.desktop-bg{display:flex;height:95%;justify-content:flex-start;width:100%}.taskbar-bg{align-items:center;background-color:#fff;background-color:rgba(0,0,0,.3);display:flex;height:5%;justify-content:center;width:100%}.icon{background-color:hsla(0,0%,50%,0);border-radius:15%;color:#fff;height:90%;padding:5px;width:2%}.ripple{background-position:50%;transition:background .8s}.ripple:hover{background:#47a7f5 radial-gradient(circle,transparent 1%,#47a7f5 0) 50%/15000%;-webkit-transform:scale(150%);transform:scale(150%)}.ripple:active{background-color:#6eb9f7;background-size:100%;transition:background 0s}.desktop-bg-icons{height:100%;padding:1%;width:50%}#draggable{font-weight:600}.desktop-icon{background-color:hsla(0,0%,50%,0);border-radius:15%;color:#fff;padding:5px;width:2%}.app-area{background-color:initial;height:95%;position:absolute}.app-area,.centerize{align-items:center;display:flex;justify-content:center;width:100%}.centerize{height:100%}.p-absolute{position:absolute}.menu-main{background:#fff;background-color:hsla(0,0%,100%,.3);border-radius:15px;height:80%;width:85%}.menu-main-1{opacity:1}.menu-header{display:block;height:5%;width:100%}.close-icon{border-radius:20px;width:20px}.menu-body{height:95%;overflow:auto;padding:5%;width:95%}.dialog-desktop{align-items:center;background:transparent;display:flex;height:100vh;justify-content:center;position:absolute;width:100%;z-index:1}.icon-area{float:left;width:7%}.term-container{align-items:center;background:#000;color:#fff;height:60vh;justify-content:center;width:60%}.term-container,.term-history{display:flex;flex-direction:column}.term-history{height:90%;overflow:auto;padding:1%;width:95%}.term-prompt{background:transparent;border:none;color:#fff;height:100%;width:90%}*{margin:0;padding:0}.main{height:100vh;width:100%}
+.desktop-main {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%
+}
+
+.desktop-bg {
+    display: flex;
+    height: 95%;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.taskbar-bg {
+    align-items: center;
+    background-color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    width: 100%
+}
+
+.icon {
+    background-color: hsla(0, 0%, 50%, 0);
+    border-radius: 15%;
+    color: #fff;
+    height: 90%;
+    padding: 5px;
+    width: 2%
+}
+
+.ripple {
+    background-position: 50%;
+    transition: background .8s
+}
+
+.ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 0) 50%/15000%;
+    -webkit-transform: scale(150%);
+    transform: scale(150%)
+}
+
+.ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s
+}
+
+.desktop-bg-icons {
+    height: 100%;
+    padding: 1%;
+    width: 50%
+}
+
+#draggable {
+    font-weight: 600
+}
+
+.desktop-icon {
+    background-color: hsla(0, 0%, 50%, 0);
+    border-radius: 15%;
+    color: #fff;
+    padding: 5px;
+    width: 2%
+}
+
+.app-area {
+    background-color: initial;
+    height: 95%;
+    position: absolute
+}
+
+.app-area,
+.centerize {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.centerize {
+    height: 100%
+}
+
+.p-absolute {
+    position: absolute
+}
+
+.menu-main {
+    background: #fff;
+    background-color: hsla(0, 0%, 100%, .3);
+    border-radius: 15px;
+    height: 80%;
+    width: 85%
+}
+
+.menu-main-1 {
+    opacity: 1
+}
+
+.menu-header {
+    display: block;
+    height: 5%;
+    width: 100%
+}
+
+.close-icon {
+    border-radius: 20px;
+    width: 20px
+}
+
+.menu-body {
+    height: 95%;
+    overflow: auto;
+    padding: 5%;
+    width: 95%
+}
+
+.dialog-desktop {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+.icon-area {
+    float: left;
+    width: 7%
+}
+
+.term-container {
+    align-items: center;
+    background: #000;
+    color: #fff;
+    height: 60vh;
+    justify-content: center;
+    width: 60%
+}
+
+.term-container,
+.term-history {
+    display: flex;
+    flex-direction: column
+}
+
+.term-history {
+    height: 90%;
+    overflow: auto;
+    padding: 1%;
+    width: 95%
+}
+
+.term-prompt {
+    background: transparent;
+    border: none;
+    color: #fff;
+    height: 100%;
+    width: 90%
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.main {
+    height: 100vh;
+    width: 100%
+}
+
 /*# sourceMappingURL=main.e64ad731.css.map*/
